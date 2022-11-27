@@ -21,8 +21,8 @@
 <body>
 
     <header class="bgc-blue">
-        <div class="container-fluid">
-            <div class="row h-100 align-items-center container-fluid">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
                 <div class="col">logo</div>
                 <div class="col text-end d-md-none">hamburger menu</div>
                 <div class="col text-end d-none d-md-block">link link link</div>
@@ -31,19 +31,29 @@
     </header>
 
     <section class="bgc-green">
-        <div class="row container-fluid h-100 m-0 p-0">
-            <div class="col d-flex flex-column align-items-center py-4">
-                <p>Inserire tag img con logo</p>
-                <p>Inserire tag h1 con titolo</p>
-                <p>Inserire tag icon con icona</p>
-                <p>Inserire una ul inline</p>
+        <div class="container-fluid">
+            <div class="row d-flex flex-column align-items-center py-4">
+                    <div class="col-3">
+                        <img src="img/avatar.svg" class="img-fluid" alt="avatar">
+                    </div>
+                    <div class="col">
+                        <h1 class="text-center text-uppercase text-white">Start Bootstrap</h1>
+                    </div> 
+                    <div class="col text-center text-white d-flex align-items-center justify-content-center">
+                        <div class="bgc-white"></div>
+                        <i class="bi bi-star-fill h3 px-2"></i>
+                        <div class="bgc-white"></div>
+                    </div>
+                    <div>
+                        <h4 class=" text-center text-uppercase text-white">Graphic artist - Web designer - Illustrator</h5>
+                    </div>
             </div>
         </div>
     </section>
 
     <section>
         <div class="container-fluid">
-            <h1 class="text-center">Titolo</h1>
+            <h1 class="text-center">PORTFOLIO</h1>
             <div class="row flex-column flex-md-row">
                 <div class="col col-md-6 col-xl-4 mb-3">
                     <div class="card card-test">
@@ -80,31 +90,47 @@
     </section>
 
     <section class="bgc-green">
-        <div class="row container-fluid h-100 m-0 p-0 flex-column flex-md-row py-4">
-            <div class="col col-md-12 text-center">About</div>
-            <div class="col col-md-12 text-center">Icona</div>
-            <div class="col col-md-6 text-center">Primo trafiletto</div>
-            <div class="col col-md-6 text-center">Secondo trafiletto</div>
-            <div class="col col-md-12 text-center">Bottone</div>
+        <div class="container-fluid">
+            <div class="row flex-column flex-md-row py-4">
+                <div class="col col-md-12 text-center">About</div>
+                <div class="col col-md-12 text-center">Icona</div>
+                <div class="col col-md-6 text-center">Primo trafiletto</div>
+                <div class="col col-md-6 text-center">Secondo trafiletto</div>
+                <div class="col col-md-12 text-center">Bottone</div>
+            </div>
         </div>
     </section>
 
     <section>
-        form da non fare
+        <div class="container-fluid">
+            form
+        </div>
     </section>
 
     <section class="bgc-blue">
-        <div class="row container-fluid h-100 m-0 p-0 flex-column flex-md-row py-4">
-            <div class="col text-center">Location</div>
-            <div class="col text-center">Around the web</div>
-            <div class="col text-center">About Freelancer</div>
+        <div class="container-fluid">
+            <div class="row flex-column flex-md-row justify-content-center py-4">
+                <div class="col-3 text-center text-white">
+                    <h6 class="text-uppercase">Location</h4>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="col-3 text-center text-white">
+                    <h6 class="text-uppercase">Around the web</h4>
+                </div>
+                <div class="col-3 text-center text-white">
+                    <h6 class="text-uppercase">About Freelancer</h4>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer class="bgc-dark-blue">
-        <div class="row container-fluid h-100 m-0 p-0">
-            <div class="col d-flex flex-column align-items-center py-4">
-                copyright
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center py-4">
+                    copyright
+                </div>
             </div>
         </div>
     </footer>
