@@ -26,3 +26,10 @@ header {
     width: 100px;
 }
 
+#contact-me input, 
+#contact-me textarea {
+    border-width: 0 0 1px 0;
+    border-color: black;
+    border-radius: 0;
+}
+
