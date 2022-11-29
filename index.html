@@ -21,18 +21,35 @@
 <body>
 
     <header class="bgc-blue">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col">logo</div>
-                <div class="col text-end d-md-none">hamburger menu</div>
-                <div class="col text-end d-none d-md-block">link link link</div>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase text-white fw-bold p-2" href="#">Start Bootstrap</a>
+
+                <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon color-white"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse flex-grow-0 p-2" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase text-white fw-bold" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase text-white fw-bold" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active text-uppercase text-white fw-bold" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <section class="bgc-green">
+    <section class="bgc-green py-4">
         <div class="container">
-            <div class="row d-flex flex-column align-items-center py-4">
+            <div class="row d-flex flex-column align-items-center">
                     <div class="col-3">
                         <img src="img/avatar.svg" class="img-fluid" alt="avatar">
                     </div>
@@ -51,7 +68,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="py-4">
         <div class="container">
             <h1 class="text-center">PORTFOLIO</h1>
             <div class="col text-center d-flex align-items-center justify-content-center">
@@ -94,9 +111,9 @@
         </div>
     </section>
 
-    <section class="bgc-green">
+    <section class="bgc-green py-4">
         <div class="container">
-            <div class="row flex-column flex-md-row py-4 justify-content-center">
+            <div class="row flex-column flex-md-row justify-content-center">
                 <div class="col col-md-12 text-center text-uppercase text-white">
                     <h1>About</h1>
                 </div>
@@ -124,7 +141,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="py-4">
         <div class="container">
             <h1 class="text-center">CONTACT ME</h1>
             <div class="col text-center d-flex align-items-center justify-content-center">
@@ -135,9 +152,9 @@
         </div>
     </section>
 
-    <section class="bgc-blue">
+    <section class="bgc-blue py-4">
         <div class="container">
-            <div class="row flex-column flex-md-row justify-content-center py-4">
+            <div class="row flex-column flex-md-row justify-content-center">
                 <div class="col-3 text-center text-white">
                     <h6 class="text-uppercase">Location</h4>
                     <p>2215 John Daniel Drive Clark, MO 54243</p>
@@ -156,8 +173,8 @@
     <footer class="bgc-dark-blue">
         <div class="container">
             <div class="row">
-                <div class="col d-flex flex-column align-items-center py-4">
-                    copyright
+                <div class="col d-flex flex-column align-items-center text-white py-3">
+                    <p class="m-0">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
                 </div>
             </div>
         </div>
